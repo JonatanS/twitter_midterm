@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>TwitterMap</title>
+	  <%= include_gon%> 	<!--must include this in order for JS to receive gon variables from RUBY-->
+	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <%= stylesheet_link_tag    'application', media: 'all', 'http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css' => true %>
+	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  <%= csrf_meta_tags %>
+
+    <!--<
+	 <script type = "text/javascript" src="javascripts/dat.gui.min.js"></script>
+    <script type = "text/javascript" src="javascripts/jquery-1.11.1.min.js"></script>
+    script src="http://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+    <script type="text/javascript" src="javascripts/jquery.slides.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+-->
+
+	</head>
+<body>
+	<!-- load JS script here-->
+	<script>
+
+		//script_path = "assets/twitter_to_map.js";
+		script_path = "assets/gMap.js";
+		$.getScript(script_path,function(){
+          $(document).ready(ready);});
+
+	</script>
+
+<%= yield %>
+
+</body>
+</html>

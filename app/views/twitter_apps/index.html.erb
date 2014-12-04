@@ -1,0 +1,134 @@
+<!--Pseudo Code:
+when typing address, 
+  - autocomplete from DB (if city already exists)
+when pressing submit:
+  - check to see whether city exists (by address/ name)
+    - if yes: grab lat/ lon from DB
+    - if no: grab lat/ lon from Geocoder and add to DB. 
+  - Then start Twitter process.
+-->
+  
+<h1> What's Hot?</h1>
+
+<!--search field form to feed twitter_apps:-->
+<form action= 'twitter_apps' method='GET' >
+	<fieldset id = 'input-fieldset'>
+
+  <div>
+	Address to search:
+	<input type="text" value='<%="#{@city_to_lookup}"%>' name="lookup" >
+	</div>
+
+  <div>
+  Search Radius (miles):
+  <span id="slider"></span>
+
+  <!--<label type = "number" name = "radius" style="width:55px;"><%=@radius%> mi</label>-->
+  <label id = "radius" type = "number" name = "radius" style="width:55px;"><%=@radius%> mi</label>
+  <script>
+    // $( "#slider" ).slider({min: 1, max:2500});
+    $('#slider').slider().bind('slide',function(event,ui){
+      //change radius value
+      var sliderValue = $( "#slider" ).slider( "values",0 );
+      gon.radius = sliderValue;
+      document.getElementById("radius").innerHTML = sliderValue.toString() + " mi";
+    });
+  </script>
+  <!--<input type="number" value=<%=@radius%> name="radius" maxlength="4" style="width:45px;">-->
+</div>
+
+	<div>
+	Keyword to search for:
+	<input type="text" value=<%=@topics%> name="keyword">
+  <br>
+  Optional Date Range:
+  <class="texthover" title="Twitter only allows for searches up to 7 days ago." ><label for="from">from</label>
+  <input type="text" id="from" name="from">
+  <label for="to">to</label>
+  <input type="text" id="to" name="to">
+  <br>
+  <input type="submit" value="Submit">
+</div>
+</fieldset>
+</form>
+
+<div id="map-container">
+  <div id="map-canvas"></div>
+</div>
+
+
+<script>
+if(!gon.city_found){alert("Could not find the address. Be more descriptive!");}
+else if(gon.arr_location_tweets.count == 0){alert("No tweets found!");}
+</script>
+
+<!--DISPLAY IMAGES DYNAMICALLY IN IMAGE-REEL DIV-->
+<br>
+<br>
+<div class="image-reel">
+</div>
+
+<!--TODO: Do this in same loop ass ruby tweet loop below-->
+<script type="text/javascript">
+for(i = 0; i < gon.arr_location_tweets.length; i++)
+{
+  if(gon.arr_location_tweets[i].image_url.toString()!="")
+  {
+    $('.image-reel').append('<div class="image"><img src="' + gon.arr_location_tweets[i].image_url + '""></img></div>');
+  }
+}
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.image-reel').slick({
+          infinite: true,
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          variableWidth: true,
+          autoplay: true,
+          arrows: false
+      });
+  });
+</script>
+
+<!--DISPLAY TWEETS-->
+<br>
+<br>
+
+<div id ="table" style="height:200px;overflow:auto;">
+<table id="tweets-table"class="sortable">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Lat</th>
+      <th>Lon</th>
+      <th>Tweet</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  	<% tweet_counter = 0 %>
+    <% @twitter_display.each do |tweet| %>
+    <% if tweet_counter % 2 == 0 then %>
+    <% my_var = '<tr>' %>
+    <% else%>
+    <% my_var ='<tr class="alt">'%>
+    <% end%>
+    <%= my_var.html_safe %>
+      	<td><%= tweet_counter.to_s %></td>
+        <td><%= tweet.latitute %></td>
+        <td><%= tweet.longitude %></td>
+        <td><%= tweet.message %></td>
+        <%tweet_counter+=1%>
+        <script type="text/javascript">
+          //TODO: append image to image-reel class in this loop!
+        </script>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</div>
+
+<p>the end</p>
