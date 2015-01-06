@@ -111698,3 +111698,832 @@ Started GET "/assets/gMap.js?_=1417652124726" for 127.0.0.1 at 2014-12-03 19:15:
 
 
 Started GET "/assets/ajax-loader.gif" for 127.0.0.1 at 2014-12-03 19:15:25 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 21:47:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TwitterAppsController#index as HTML
+  [1m[35mCity Load (0.1ms)[0m  SELECT  "cities".* FROM "cities"  WHERE "cities"."address" = 'New York' LIMIT 1
+  Rendered twitter_apps/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 8261ms (Views: 7412.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/twitter_apps.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/slick" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:24 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/jquery.slick.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/utilities.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/gMap.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/sorttable.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/twitter_apps.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/dat.gui.min.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 21:47:25 -0500
+
+
+Started GET "/assets/gMap.js?_=1417661245037" for 127.0.0.1 at 2014-12-03 21:47:26 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2014-12-03 21:47:26 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2014-12-03 21:47:26 -0500
+
+
+Started GET "/assets/ajax-loader.gif" for 127.0.0.1 at 2014-12-03 21:47:26 -0500
+
+
+Started GET "/cities" for 127.0.0.1 at 2014-12-03 21:47:27 -0500
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.1ms)[0m  [1mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 1683ms (Views: 1680.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/gMap.js?_=1417661249384" for 127.0.0.1 at 2014-12-03 21:47:29 -0500
+
+
+Started GET "/assets/gMap.js?_=1417661258656" for 127.0.0.1 at 2014-12-03 21:47:38 -0500
+
+
+Started GET "/twitter_apps?lookup=melbourne%2C+australia&keyword=pizza&from=&to=" for 127.0.0.1 at 2014-12-03 21:47:55 -0500
+Processing by TwitterAppsController#index as HTML
+  Parameters: {"lookup"=>"melbourne, australia", "keyword"=>"pizza", "from"=>"", "to"=>""}
+  [1m[35mCity Load (1.5ms)[0m  SELECT  "cities".* FROM "cities"  WHERE "cities"."address" = 'melbourne, australia' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mCity Exists (0.2ms)[0m  SELECT  1 AS one FROM "cities"  WHERE "cities"."address" = 'melbourne, australia' LIMIT 1
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "cities" ("address", "created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["address", "melbourne, australia"], ["created_at", "2014-12-04 02:48:13.341685"], ["latitude", -37.814107], ["longitude", 144.96328], ["updated_at", "2014-12-04 02:48:13.341685"]]
+  [1m[35m (4.1ms)[0m  commit transaction
+  Rendered twitter_apps/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19230ms (Views: 985.6ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/assets/gMap.js?_=1417661295099" for 127.0.0.1 at 2014-12-03 21:48:15 -0500
+
+
+Started GET "/cities" for 127.0.0.1 at 2014-12-03 21:48:36 -0500
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.6ms)[0m  [1mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 1096ms (Views: 1092.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/gMap.js?_=1417661318260" for 127.0.0.1 at 2014-12-03 21:48:38 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-07 15:34:56 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TwitterAppsController#index as HTML
+  [1m[35mCity Load (0.1ms)[0m  SELECT  "cities".* FROM "cities"  WHERE "cities"."address" = 'New York' LIMIT 1
+  Rendered twitter_apps/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 16039ms (Views: 7244.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/twitter_apps.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/cities.css?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/slick" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:14 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/jquery.slick.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/dat.gui.min.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/gMap.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/sorttable.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/twitter_apps.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/utilities.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/gMap.js?_=1417984514476" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/ajax-loader.gif" for 127.0.0.1 at 2014-12-07 15:35:15 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100.png" for 127.0.0.1 at 2014-12-07 15:35:32 -0500
+
+
+Started GET "/assets/jquery-ui/ui-icons_222222_256x240.png" for 127.0.0.1 at 2014-12-07 15:35:32 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2014-12-07 15:35:32 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_55_fbf9ee_1x400.png" for 127.0.0.1 at 2014-12-07 15:35:38 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2014-12-07 15:35:41 -0500
+
+
+Started GET "/twitter_apps?lookup=Bristol%2C+UK&keyword=pizza&from=&to=2014-12-05" for 127.0.0.1 at 2014-12-07 15:36:50 -0500
+Processing by TwitterAppsController#index as HTML
+  Parameters: {"lookup"=>"Bristol, UK", "keyword"=>"pizza", "from"=>"", "to"=>"2014-12-05"}
+  [1m[36mCity Load (0.2ms)[0m  [1mSELECT  "cities".* FROM "cities"  WHERE "cities"."address" = 'Bristol, UK' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mCity Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "cities"  WHERE "cities"."address" = 'Bristol, UK' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "cities" ("address", "created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?, ?)  [["address", "Bristol, UK"], ["created_at", "2014-12-07 20:37:24.052151"], ["latitude", 51.454513], ["longitude", -2.58791], ["updated_at", "2014-12-07 20:37:24.052151"]]
+  [1m[36m (3.1ms)[0m  [1mcommit transaction[0m
+  Rendered twitter_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40340ms (Views: 1125.1ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/gMap.js?_=1417984651013" for 127.0.0.1 at 2014-12-07 15:37:31 -0500
+
+
+Started GET "/twitter_apps?lookup=Bristol%2C+UK&keyword=pizza&from=&to=" for 127.0.0.1 at 2014-12-07 15:37:45 -0500
+Processing by TwitterAppsController#index as HTML
+  Parameters: {"lookup"=>"Bristol, UK", "keyword"=>"pizza", "from"=>"", "to"=>""}
+  [1m[35mCity Load (0.3ms)[0m  SELECT  "cities".* FROM "cities"  WHERE "cities"."address" = 'Bristol, UK' LIMIT 1
+  Rendered twitter_apps/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 8751ms (Views: 950.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gMap.js?_=1417984674449" for 127.0.0.1 at 2014-12-07 15:37:54 -0500
+
+
+Started GET "/cities" for 127.0.0.1 at 2014-12-07 15:38:04 -0500
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 975ms (Views: 972.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gMap.js?_=1417984685617" for 127.0.0.1 at 2014-12-07 15:38:05 -0500
+
+
+Started GET "/assets/gMap.js?_=1417984689633" for 127.0.0.1 at 2014-12-07 15:38:09 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-07 15:38:14 -0500
+Processing by TwitterAppsController#index as HTML
+  [1m[35mCity Load (0.3ms)[0m  SELECT  "cities".* FROM "cities"  WHERE "cities"."address" = 'New York' LIMIT 1
+  Rendered twitter_apps/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10951ms (Views: 1053.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cities" for 127.0.0.1 at 2014-12-07 15:38:25 -0500
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 976ms (Views: 974.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cities" for 127.0.0.1 at 2014-12-07 15:38:26 -0500
+Processing by CitiesController#index as HTML
+  [1m[35mCity Load (0.3ms)[0m  SELECT "cities".* FROM "cities"
+  Rendered cities/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 987ms (Views: 985.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cities" for 127.0.0.1 at 2014-12-07 15:38:27 -0500
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 949ms (Views: 947.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cities" for 127.0.0.1 at 2014-12-07 15:38:28 -0500
+Processing by CitiesController#index as HTML
+  [1m[35mCity Load (0.3ms)[0m  SELECT "cities".* FROM "cities"
+  Rendered cities/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 995ms (Views: 993.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gMap.js?_=1417984709921" for 127.0.0.1 at 2014-12-07 15:38:30 -0500
+
+
+Started GET "/cities/31/edit" for 127.0.0.1 at 2014-12-07 15:38:35 -0500
+Processing by CitiesController#edit as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mCity Load (0.2ms)[0m  [1mSELECT  "cities".* FROM "cities"  WHERE "cities"."id" = ? LIMIT 1[0m  [["id", 31]]
+  Rendered cities/_form.html.erb (83.7ms)
+  Rendered cities/edit.html.erb within layouts/application (225.5ms)
+Completed 200 OK in 1174ms (Views: 1172.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cities/31/assets/gMap.js?_=1417984709922" for 127.0.0.1 at 2014-12-07 15:38:36 -0500
+
+ActionController::RoutingError (No route matches [GET] "/cities/31/assets/gMap.js"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jonatans/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jonatans/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jonatans/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jonatans/.rvm/gems/ruby-2.1.3@global/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/jonatans/.rvm/gems/ruby-2.1.3@global/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (11.4ms)
+
+
+Started GET "/cities/31" for 127.0.0.1 at 2014-12-07 15:38:40 -0500
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mCity Load (0.1ms)[0m  SELECT  "cities".* FROM "cities"  WHERE "cities"."id" = ? LIMIT 1  [["id", 31]]
+  Rendered cities/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1001ms (Views: 998.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/cities/assets/gMap.js?_=1417984709923" for 127.0.0.1 at 2014-12-07 15:38:41 -0500
+
+ActionController::RoutingError (No route matches [GET] "/cities/assets/gMap.js"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jonatans/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jonatans/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jonatans/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jonatans/.rvm/gems/ruby-2.1.3@global/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/jonatans/.rvm/gems/ruby-2.1.3@global/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.9ms)
+
+
+Started GET "/cities/31/edit" for 127.0.0.1 at 2014-12-07 15:38:43 -0500
+Processing by CitiesController#edit as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mCity Load (0.1ms)[0m  [1mSELECT  "cities".* FROM "cities"  WHERE "cities"."id" = ? LIMIT 1[0m  [["id", 31]]
+  Rendered cities/_form.html.erb (3.3ms)
+  Rendered cities/edit.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 956ms (Views: 954.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/cities/31/assets/gMap.js?_=1417984709924" for 127.0.0.1 at 2014-12-07 15:38:44 -0500
+
+ActionController::RoutingError (No route matches [GET] "/cities/31/assets/gMap.js"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jonatans/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/jonatans/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/jonatans/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jonatans/.rvm/gems/ruby-2.1.3@global/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/jonatans/.rvm/gems/ruby-2.1.3@global/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.6ms)
