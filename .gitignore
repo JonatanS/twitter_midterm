@@ -15,4 +15,6 @@
 /log/*.log
 /tmp
 
+# twitter api keys
 /config/secrets.yml
+/config/initializers/twitter.rb
